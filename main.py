@@ -21,7 +21,7 @@ def rsa_key_gen():
     # generating keys
     key_size = int(key_size)
     print('Generating...')
-    p, q = genetrate_prime.get_prime(key_size // 2), genetrate_prime.get_prime(key_size // 2)
+    p, q = generate_prime.get_prime(key_size // 2), generate_prime.get_prime(key_size // 2)
     public, private = rsa.get_keys(p, q)
 
     print('\nThe generated keys are:')
