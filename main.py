@@ -249,7 +249,7 @@ def rsa_decryption(self_private_key):
 
 def main():
     print('================================================================\n'
-          '\t\t\t\tRSA Implementation By Yahav Bragin\n'
+          '\t\tRSA Implementation By Yahav Bragin\n'
           '================================================================')
 
     choice = public = private = None
