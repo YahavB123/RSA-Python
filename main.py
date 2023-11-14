@@ -1,4 +1,4 @@
-import genetrate_prime
+import generate_prime
 import rsa
 import os
 from datetime import datetime
